@@ -8,10 +8,11 @@
  * Controller of the forestryApp
  */
 angular.module('forestryApp')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl',["$scope", function ($scope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-  });
+    $scope.tab = 1;
+  }]);

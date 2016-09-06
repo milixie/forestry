@@ -1,0 +1,209 @@
+<div class="forestry-hero">
+  <div class="forestry-guide">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2>A simple CMS for Jekyll and Hugo sites</h2>
+          <p>Built for devs who hate bloat</p>
+          <a href="/signup" class="text-center">Generate your CMS</a>
+        </div>
+        <div class="col-md-7">
+          <img src="images/screenshot.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="forestry-content">
+  <!-- How it works part -->
+  <section class="forestry-work">
+    <div class="container text-center">
+      <h2>How it works</h2>
+      <div class="row">
+        <div class="col-sm-4 work-type">
+          <i class="glyphicon glyphicon-cloud-upload"></i>
+          <h4>Import Project</h4>
+          <p>Connect to a repo or upload a zip of your Jekyll/Hugo project</p>
+        </div>
+        <div class="col-sm-4 work-type">
+          <i class="glyphicon glyphicon-tree-conifer"></i>
+          <h4>Build CMS</h4>
+          <p>Forestry.io will parse your project and automatically build a CMS.</p>
+        </div>
+        <div class="col-sm-4 work-type">
+          <i class="glyphicon glyphicon-flag"></i>
+          <h4>Deploy</h4>
+          <p>Connect to your host to publish your changes. If you use Git, updates are also committed to your repo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- video part -->
+  <section class="forestry-video">
+    <div class="video-poster container text-center">
+      <img src="images/poster.jpg">
+      <div class="play-button">
+        <span></span>
+      </div>
+    </div>
+    <div class="intro-video container text-center">
+      <video width="700" height="393" preload="none">
+        <source src="https://embedwistia-a.akamaihd.net/deliveries/1a80da9a30fd9b80060723c3ea2dc6f004162959/file.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <section class="forestry-non-coders">
+    <div class="container">
+      <h2 class="text-center">Let non-coders edit</h2>
+      <div class="row">
+        <div class="col-md-6 edit-part">
+          <img src="images/gui.png">
+          <h4>Give non-devs a GUI</h4>
+          <p>Updating your site from Forestry will: </p>
+          <ul>
+            <li>Commit changes to your repo</li>
+            <li>Compile & deploy to your host <span class="gray-detail">(optional)</span></li>
+          </ul>
+        </div>
+        <div class="col-md-6 edit-part">
+          <img src="images/git.png">
+          <h4>While you use Git</h4>
+          <p>If you use Git, Forestry.io will watch your repo for changes and pull them in. So you can push code, while your editors are using the CMS.</p>
+          <span class="gray-detail">Currently supporting GitHub, Gitlab and Bitbucket</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="forestry-Plugin container">
+    <div class="row">
+      <div class="col-md-6 plugin-part">
+        <img src="images/plugin.png">
+      </div>
+      <div class="col-md-6 plugin-part">
+        <h4>100% Jekyll Plugin support</h4>
+        <p>Use <a href="https://jekyllrb.com/docs/plugins/">Jekyll plugins</a>? No problem! Forestry will build and deploy your site based on the plugins specified in your Gemfile.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="forestry-writer">
+    <div class="container text-center">
+      <div ng-show="tab==1" class="intro-writer">
+        <blockquote>
+          <img src="images/quote.png">
+          Forestry allows our non-technical content writers to update pages without having to install anything locally or learn Git.
+        </blockquote>
+        <img class="write-head" src="images/leon.jpg">
+        <h5>Leon Barnard</h5>
+        <p>Designer, Writer. <a href="https://balsamiq.com">Balsamiq</a></p>
+      </div>
+      <div ng-show="tab==2" class="intro-writer">
+        <blockquote>
+          <img src="images/quote.png">
+          Forestry essentially provides all the customizations that you build into your Jekyll project.
+        </blockquote>
+        <img class="write-head" src="images/lee.jpg">
+        <h5>Michael Lee</h5>
+        <p>Author of Field Guide to Jekyll. <a href="https://balsamiq.com">michaelsoolee.com</a></p>
+      </div>
+      <div ng-show="tab==3" class="intro-writer">
+        <blockquote>
+          <img src="images/quote.png">
+          I've been wanting a way to support less technically-inclined users. It's like Wordpress…without the crap.
+        </blockquote>
+        <img class="write-head" src="images/travis.jpg">
+        <h5>Travis B.</h5>
+        <p>Marketing Strategist with Jobs2Careers.<a href="https://balsamiq.com"> @Jobs2Careers</a></p>
+      </div>
+      <ul class="slide-icon">
+        <li ng-click="tab=1" ng-class="{'active':tab==1}"></li>
+        <li ng-click="tab=2" ng-class="{'active':tab==2}"></li>
+        <li ng-click="tab=3" ng-class="{'active':tab==3}"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="forestry-deploy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 deploy-part">
+          <h4>Deploy anywhere</h4>
+          <p>Forestry is host-agnostic. Everytime an update is made via your CMS, Forestry will compile your site and deploy it to your host (S3, GitHub Pages, FTP, etc).</p>
+        </div>
+        <div class="col-md-6 deploy-part">
+          <img src="images/deploy.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="forestry-work">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-4 work-type">
+          <i class="glyphicon glyphicon-time"></i>
+          <h4>Zero setup time</h4>
+          <p>No configuration needed. Just upload your site and Forestry will automatically build your CMS in seconds.</p>
+        </div>
+        <div class="col-sm-4 work-type">
+          <i class="glyphicon glyphicon-cloud"></i>
+          <h4>A hosted CMS</h4>
+          <p>Forestry is a hosted CMS. No need to install or maintain any bloated software.</p>
+        </div>
+        <div class="col-sm-4 work-type">
+          <i class="glyphicon glyphicon-lock"></i>
+          <h4>Don't lock to a CMS</h4>
+          <p>No configuration and you're not locked into hosting. Forestry is a GUI that doesn't interfere with your site.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="forestry-footer">
+    <div class="container text-center">
+      <h4>Try for free</h4>
+      <button type="button">Generate your CMS</button>
+      <p class="io">Forestry.io</p>
+      <a href="/">Terms</a> • <a href="/">Privacy</a>
+    </div>
+  </section>
+
+  <div class="forestry-wechat">
+    <a href="" class="wechat-btn"></a>
+    <div class="wechat-conversation">
+      <div class="conver-head">
+        <a href="" class="change-btn"><span></span><span></span><span></span></a>
+        <p>New Conversation</p>
+        <div class="right-btn">
+          <a href="" class="minimize-btn">-</a>
+          <a href="" class="close-btn">×</a>
+        </div>
+      </div>
+      <div class="team-panel text-center">
+        <p>Forestry.io Team</p>
+        <span>Last active 1 hour ago</span>
+        <ul>
+          <li>
+            <img src="images/jordan.jpg">
+            <div>Jordan</div>
+          </li>
+          <li>
+            <img src="images/scott.jpg">
+            <div>Scott</div>
+          </li>
+        </ul>
+      </div>
+      <div class="chat-panel"></div>
+      <div class="reply-panel text-box">
+        <textarea placeholder="Write a reply..."></textarea>
+        <strong class="file"></strong>
+        <strong class="smile"></strong>
+      </div>
+    </div>
+  </div>
+
+</div>

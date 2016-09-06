@@ -1,0 +1,469 @@
+.forestry-hero{
+	background-image: linear-gradient(45deg, #125fb5, #258cff);
+	.forestry-header{
+		height: 60px;
+		line-height: 60px;
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+
+		.forestry-logo{
+			margin-top: 7px;
+			background: url(../images/forestry-logo.png);
+			height: 45px;
+			a{
+				display: inline-block;
+				width: 153px;
+				overflow: hidden;
+				line-height: 40px;
+			}
+		}
+
+		.forestry-navbar{
+			.navbar-button {
+				margin-bottom: 0;
+				li {
+					display: inline-block;
+					padding: 0px 15px;
+					&:last-child{
+						padding-right: 0px;
+					}
+					a{
+						color: white;
+						font-size: 15px;
+						font-weight: 400;
+						&.login {
+							background: white;
+							color: #258cff;
+							border-radius: 20px;
+							padding: 7px 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.forestry-guide{
+		h2{
+			color: white;
+			font-size: 35px;
+			margin-top: 80px;
+			margin-right: 30px;
+		}
+		p{
+			font-size: 22px;
+			color: rgba(255,255,255,0.55);
+			margin: 30px 0 40px;
+		}
+		a{
+			display: inline-block;
+			width: 250px;
+			height:50px;
+			line-height: 50px;
+			background: #51D696;
+			font-size: 18px;
+			color: white;
+			border-radius: 4px;
+		}
+		img{
+			width: 100%;
+			margin-top: 40px;
+		}
+	}
+
+}
+
+.forestry-content{
+
+	.forestry-work{
+		padding: 80px 0 60px;
+		h2{
+			margin-bottom: 80px;
+			font-size: 30px;
+			color: #222;
+			font-weight: 700;
+			position: relative;
+			&:after {
+				position: absolute;
+				left: 50%;
+				margin-left: -60px;
+				margin-top: 20px;
+				display: block;
+				content: "";
+				background: rgba(32,204,127,0.5);
+				width: 120px;
+				height: 4px;
+			}
+		}
+		.work-type {
+			color: #677087;
+			i{
+				display: inline-block;
+				font-size: 44px;
+				color: rgba(37,140,255,0.5);
+			}
+			h4{
+				font-size: 17px;
+			}
+			p{
+				font-size: 15px;
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.forestry-video {
+		background: #20CC7F;
+		padding: 60px 0;
+		.video-poster {
+			position: relative;
+			img{
+				position: absolute;
+				width: 700px;
+				height: 393px;
+				left: 50%;
+				margin-left: -350px;
+			}
+			.play-button {
+				position: absolute;
+				left: 50%;
+				margin-left: -64px;
+				margin-top: 160px;
+				width: 128px;
+				height: 80px;
+				background: rgba(51, 51, 51, 0.8);
+				z-index: 1;
+				&:hover {
+					cursor: pointer;
+					background: rgba(91, 91, 91, 0.8);
+				}
+				span {
+					display: block;
+					position: absolute;
+					left: 55px;
+					top: 22px;
+					width: 0px;
+					height: 0px;
+					border-width: 18px 26px;
+					border-style: solid;
+					border-color: transparent transparent transparent #fff;
+				}
+			}
+		}
+	}
+
+	.forestry-non-coders{
+		background: #FDFBFB;
+		padding-bottom: 60px;
+		h2{
+			background: url(../images/forestry-logo.png) 240px -60px no-repeat;
+			font-size: 30px;
+			font-weight: 700;
+			color: #222;
+			position: relative;
+			margin: 65px 0 80px;
+			padding: 20px 0;
+			&:after{
+				position: absolute;
+				left: 50%;
+				margin-left: -60px;
+				margin-top: 30px;
+				display: block;
+				content: "";
+				background: rgba(32,204,127,0.5);
+				width: 120px;
+				height: 4px;
+			}
+		}
+
+		.edit-part{
+			padding: 0 40px;
+			font-size: 16px;
+			color: #666;
+			line-height: 1.4em;
+			h4{
+				font-size: 20px;
+				font-weight: 700;
+				color: #677087;
+				margin: 20px 0;
+			}
+			p{
+				margin: 10px 0;
+			}
+			ul{
+				padding-left: 20px;
+				li{
+					list-style-type: disc;
+				}
+			}
+			.gray-detail{
+				color: rgba(0,0,0,0.3);
+			}
+		}
+	}
+
+	.forestry-Plugin{
+		padding: 80px 0;
+		.plugin-part{
+			padding: 0 40px;
+		}
+		h4{
+			font-size: 20px;
+			font-weight: 700;
+			color: #677087;
+			margin: 80px 0 20px;
+		}
+		p{
+			color: #666;
+			font-size: 16px;
+			a{
+				color: #258cff;
+			}
+		}
+	}
+
+	.forestry-writer{
+		background: #f4f4f4;
+		.intro-writer{
+			margin-top: 30px;
+			color: #677087;
+			font-size: 16px;
+			blockquote{
+				color: rgba(37,140,255,0.9);
+				font-size: 24px;
+				font-family: Georgia, serif;
+				line-height: 40px;
+				font-style: italic;
+			}
+			img{
+				width: 70px;
+			}
+			.write-head{
+				width: 130px;
+				border-radius: 50%;
+			}
+			h5{
+				font-weight: 700;
+				margin: 18px 0 10px;
+			}
+			a{
+				color: #258cff;
+			}
+		}
+
+		.slide-icon{
+			li{
+				display: inline-block;
+				margin: 3px;
+				border: 1px solid rgba(0,0,0,0.3);
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				cursor: pointer;
+				&.active{
+					width: 9px;
+					height: 9px;
+					background: #000;
+				}
+			}
+
+		}
+	}
+
+	.forestry-deploy{
+		background: #FDFBFB;
+		padding: 80px 0;
+		h4{
+			font-size: 20px;
+			font-weight: 700;
+			color: #677087;
+			margin: 80px 0 20px;
+		}
+		p{
+			color: #666;
+			font-size: 16px;
+		}
+		.deploy-part{
+			padding: 0 60px;
+		}
+	}
+
+	.forestry-footer{
+		background: #258cff;
+		color: #fff;
+		padding: 60px 0;
+		h4{
+			font-size: 24px;
+			font-weight: 400;
+			margin-bottom: 50px;
+		}
+		button{
+			width: 320px;
+			height: 60px;
+			line-height: 60px;
+			font-size: 16px;
+			background: #51D696;
+			border: none;
+			border-radius: 3px;
+			&:hover{
+				background: #40c384;
+			}
+		}
+		.io{
+			margin-top: 120px;
+		}
+		a{
+			color: rgba(255,255,255,0.5);
+		}
+	}
+
+	.forestry-wechat{
+		.wechat-btn{
+			position: fixed;
+			right: 20px;
+			bottom: 20px;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			background: url(../images/wechat.png) #20cc7f center no-repeat;
+			border: 1px solid #00a457;
+			box-shadow: 0 6px 13px 0 rgba(0,0,0,.23);
+			border-radius: 50%;
+		}
+
+		.wechat-conversation{
+			position: fixed;
+			right: 0;
+			top: 0;
+			width: 370px;
+			height: 100%;
+			background: #fafafb;
+			box-shadow: -1px 0px 1px #dadee2;
+			border-left: 1px solid #dadee2;
+			overflow: scroll;
+
+			.conver-head{
+				position: fixed;
+				top: 0;
+				right: 0;
+				width: 368px;
+				height: 48px;
+				background: #fff;
+				box-shadow: 0 2px 1px #dadee2;
+				padding: 10px;
+				.change-btn{
+					position: absolute;
+					top: 16px;
+					left: 20px;
+					span{
+						display: block;
+						width: 15px;
+						height: 2px;
+						background: #b4bdc1;
+						margin-top: 3px;					}
+					&:hover{
+						span{
+							background: #455a64;
+						}
+					}
+				}
+				p{
+					font-size: 15px;
+					font-weight: 500;
+					color: #465c66;
+					position: absolute;
+					top: 14px;
+					left: 120px;
+				}
+				.right-btn{
+					position: absolute;
+					top: 2px;
+					right: 20px;
+					font-size: 32px;
+					font-weight: 400;
+					a{
+						color: #b4bdc1;
+						padding-left: 10px;
+						&:hover{
+							color: #455a64;
+						}
+					}
+				}
+			}
+
+			.team-panel{
+				margin: 66px auto;
+				width: 320px;
+				background: #fff;
+				box-shadow: 0 0 3px rgba(0,0,0,.2);
+				border-radius: 5px;
+				color: #90a4ae;
+				padding: 20px 12px 26px;
+				p{
+					color: #455a64;
+					font-size: 15px;
+					margin-bottom: 5px;
+				}
+				ul{
+					margin-top: 10px;
+					li{
+						display: inline-block;
+						margin: 15px 22px 10px;
+						img{
+							width: 48px;
+							height: 48px;
+							border-radius: 50%;
+						}
+					}
+				}
+			}
+
+			.reply-panel{
+				position: fixed;
+				right: 32px;
+				bottom: 32px;
+				width: 320px;
+				padding: 6px 80px 6px 10px;
+				margin-left: 15px;
+				border: 1px solid #cfd8dc;
+				border-radius: 3px;
+				background: #fff;
+				textarea{
+					width: 240px;
+					color: #455a64;
+					outline: 0;
+					border: 0;
+					word-wrap: break-word;
+					overflow-x: hidden;
+					overflow-y: auto;
+					-webkit-user-modify: read-write-plaintext-only;
+					resize: none;
+					font-size: 15px;
+					padding: 4px;
+				}
+				strong{
+					display: block;
+					width: 15px;
+					height: 15px;
+					position: absolute;
+					top: 10px;
+					cursor: pointer;
+					opacity: 0.4;
+					&:hover{
+						opacity: 1;
+					}
+				}
+				.file{
+					right: 40px;
+					background: url(../images/link.png);
+				}
+				.smile{
+					right: 16px;
+					background: url(../images/smile.png);
+				}
+
+			}
+		}
+	}
+
+
+}
