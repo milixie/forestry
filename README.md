@@ -10,3 +10,6 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+## forestry page intro
+This project is my exercise which is used html + css to laid out, and it is a static page, and it is compatible with the mobile terminal
