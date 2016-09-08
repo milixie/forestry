@@ -17,3 +17,5 @@ This project is my exercise which is used html + css to laid out, and it is a st
 
 ##备注
 The original site is : https://forestry.io/
+
+构建中使用了grunt、bower、npm命令，并且使用了angular和bootstrap框架，并且使用了css的预处理器sass
